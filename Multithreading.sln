@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncDelegateReview", "SyncD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDelegate", "AsyncDelegate\AsyncDelegate.csproj", "{D4991BBF-B1B0-4771-A933-496B7B4426CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncCallbackDelegate", "AsyncCallbackDelegate\AsyncCallbackDelegate.csproj", "{074E3C7D-504C-45E2-BF3F-03A8023754AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadStats", "ThreadStat\ThreadStats.csproj", "{F4BDB6EF-42DF-417A-809C-B789CF774DB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{D4991BBF-B1B0-4771-A933-496B7B4426CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4991BBF-B1B0-4771-A933-496B7B4426CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4991BBF-B1B0-4771-A933-496B7B4426CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074E3C7D-504C-45E2-BF3F-03A8023754AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074E3C7D-504C-45E2-BF3F-03A8023754AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074E3C7D-504C-45E2-BF3F-03A8023754AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074E3C7D-504C-45E2-BF3F-03A8023754AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4BDB6EF-42DF-417A-809C-B789CF774DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BDB6EF-42DF-417A-809C-B789CF774DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BDB6EF-42DF-417A-809C-B789CF774DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BDB6EF-42DF-417A-809C-B789CF774DB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

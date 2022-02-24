@@ -12,7 +12,7 @@ namespace AsyncDelegate
 
         static void Main(string[] args)
         {
-            Console.WriteLine("***** Sync Delegate Review *****");
+            Console.WriteLine("***** Async Delegate Review *****");
             Console.WriteLine($"Main() invoked to thread: {Thread.CurrentThread.ManagedThreadId}");
 
             BinaryOp binaryOp = new BinaryOp(Add);
