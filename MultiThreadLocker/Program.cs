@@ -10,7 +10,7 @@ namespace MultiThreadLocker
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("***** Synchronizing Threads *****\n");
+            Console.WriteLine("***** Multiple Thread Locker *****\n");
 
             Printer p = new Printer();
 
