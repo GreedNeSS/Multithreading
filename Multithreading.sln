@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutexApp", "MutexApp\MutexApp.csproj", "{66FFBC34-E721-43D8-A56A-8A12699F508D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphoreApp", "SemaphoreApp\SemaphoreApp.csproj", "{11FEA6E7-8927-4F1D-A259-E7965E95DA50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{66FFBC34-E721-43D8-A56A-8A12699F508D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66FFBC34-E721-43D8-A56A-8A12699F508D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66FFBC34-E721-43D8-A56A-8A12699F508D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11FEA6E7-8927-4F1D-A259-E7965E95DA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11FEA6E7-8927-4F1D-A259-E7965E95DA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11FEA6E7-8927-4F1D-A259-E7965E95DA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11FEA6E7-8927-4F1D-A259-E7965E95DA50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
