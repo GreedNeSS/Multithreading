@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskExample", "TPLExample\T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelExamples", "ParallelExamples\ParallelExamples.csproj", "{6C8B296F-FB95-462B-9696-CDF2861CDD2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationExample", "CancellationExample\CancellationExample.csproj", "{69011553-3E96-46C4-9C8D-BF809470D0F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{6C8B296F-FB95-462B-9696-CDF2861CDD2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C8B296F-FB95-462B-9696-CDF2861CDD2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C8B296F-FB95-462B-9696-CDF2861CDD2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69011553-3E96-46C4-9C8D-BF809470D0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69011553-3E96-46C4-9C8D-BF809470D0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69011553-3E96-46C4-9C8D-BF809470D0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69011553-3E96-46C4-9C8D-BF809470D0F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
