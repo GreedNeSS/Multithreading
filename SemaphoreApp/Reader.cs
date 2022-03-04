@@ -9,7 +9,7 @@ namespace SemaphoreApp
 {
     class Reader
     {
-        static Semaphore semaphore = new Semaphore(3, 3);
+        static Semaphore semaphore = new Semaphore(0, 3);
 
         Thread thread;
         int count = 3;
@@ -33,13 +33,22 @@ namespace SemaphoreApp
                 Thread.Sleep(500);
 
                 Console.WriteLine($"{Thread.CurrentThread.Name} выходит из библиотеки!");
-
+                
                 semaphore.Release();
                 
                 count--;
 
                 Thread.Sleep(1000);
             }
+        }
+
+        public static void SemaphoreRelease(int countObj)
+        {
+            if (countObj > 3)
+            {
+                countObj = 3;
+            }
+            semaphore.Release(countObj);
         }
     }
 }

@@ -15,6 +15,9 @@ namespace SemaphoreApp
             {
                 Reader reader = new Reader(i);
             }
+
+            Thread.Sleep(1000);
+            Reader.SemaphoreRelease(5);
         }
     }
 }
