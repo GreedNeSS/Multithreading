@@ -31,6 +31,7 @@ namespace DataParallelismWithForEach
         private void cmdCancel_Click(object sender, RoutedEventArgs e)
         {
             cancelToken.Cancel();
+            cancelToken.Dispose();
             cancelToken = new CancellationTokenSource();
         }
 
