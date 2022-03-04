@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLINQDataProcessingWithCanc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{56565428-5152-4CB0-90C4-A847777F0DE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutexApp", "MutexApp\MutexApp.csproj", "{66FFBC34-E721-43D8-A56A-8A12699F508D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{56565428-5152-4CB0-90C4-A847777F0DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56565428-5152-4CB0-90C4-A847777F0DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56565428-5152-4CB0-90C4-A847777F0DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66FFBC34-E721-43D8-A56A-8A12699F508D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66FFBC34-E721-43D8-A56A-8A12699F508D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66FFBC34-E721-43D8-A56A-8A12699F508D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66FFBC34-E721-43D8-A56A-8A12699F508D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
