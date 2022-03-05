@@ -40,7 +40,25 @@ namespace OptimizedAsyncAwait
             {
                 await task;
             }
+
+            Console.WriteLine("\n***** Optimized async code with lambda *****\n");
+
+            for (int i = 0; i < names.Length; i++)
+            {
+                tasks[i] = PrintNameLambdaAsync(names[i]);
+            }
+
+            foreach (Task task in tasks)
+            {
+                await task;
+            }
         }
+
+        static readonly Func<string, Task> PrintNameLambdaAsync = async (message) =>
+        {
+            await Task.Delay(3000);
+            Console.WriteLine("Hello " + message + " from PrintNameLambdaAsync");
+        };
 
         static void PrintNameSync(string name)
         {
