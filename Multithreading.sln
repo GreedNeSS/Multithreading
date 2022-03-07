@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptimizedAsyncAwait", "Opti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgrammingWithAsyncAwait", "ParallelProgrammingWithAsyncAwait\ParallelProgrammingWithAsyncAwait.csproj", "{AB6FB1D5-CA5A-430E-A6D4-9C2748A1F46B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncExceptions", "AsyncExceptions\AsyncExceptions.csproj", "{C40006D9-4864-4490-BB04-9D6121DBC1EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{AB6FB1D5-CA5A-430E-A6D4-9C2748A1F46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB6FB1D5-CA5A-430E-A6D4-9C2748A1F46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB6FB1D5-CA5A-430E-A6D4-9C2748A1F46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40006D9-4864-4490-BB04-9D6121DBC1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40006D9-4864-4490-BB04-9D6121DBC1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40006D9-4864-4490-BB04-9D6121DBC1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40006D9-4864-4490-BB04-9D6121DBC1EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
