@@ -62,7 +62,7 @@ namespace AsyncExceptions
         {
             Console.WriteLine("\n=> MultyExceptionsFromTasksAsync(): ");
 
-            Task task1 = PrintAsync("HI");
+            Task task1 = PrintAsync("Hi");
             Task task2 = PrintAsync("BB");
             var allTasks = Task.WhenAll(task1, task2);
 
@@ -91,7 +91,7 @@ namespace AsyncExceptions
         static async Task PrintAsync(string message)
         {
             if (message.Length < 3)
-                throw new Exception($"Invalid string length: {message.Length}");
+                throw new Exception($"Invalid string length: {message.Length}, Source: {message}");
 
             await Task.Delay(100);
             Console.WriteLine(message);

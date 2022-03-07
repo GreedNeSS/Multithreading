@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgrammingWithAsyn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncExceptions", "AsyncExceptions\AsyncExceptions.csproj", "{C40006D9-4864-4490-BB04-9D6121DBC1EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncStreams", "AsyncStreams\AsyncStreams.csproj", "{274FDCA1-F2AD-4C79-8948-02419F02260A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{C40006D9-4864-4490-BB04-9D6121DBC1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C40006D9-4864-4490-BB04-9D6121DBC1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C40006D9-4864-4490-BB04-9D6121DBC1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274FDCA1-F2AD-4C79-8948-02419F02260A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274FDCA1-F2AD-4C79-8948-02419F02260A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274FDCA1-F2AD-4C79-8948-02419F02260A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274FDCA1-F2AD-4C79-8948-02419F02260A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
